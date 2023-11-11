@@ -1,6 +1,8 @@
 # kickstart.nvim
 
-https://github.com/kdheepak/kickstart.nvim/assets/1813121/f3ff9a2b-c31f-44df-a4fa-8a0d7b17cf7b
+### Stanley's Changes
+
+The purpose of this configuration is to be used alongside my personal NixOS Configuration. Therefore, as Mason does not work properly on NixOS due to its non-standard file system layout, my configuration uses lsp-zero and expects the lsp servers to already be installed (using home-manager).
 
 ### Introduction
 
