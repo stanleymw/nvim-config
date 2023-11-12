@@ -511,7 +511,7 @@ lsp_zero.on_attach(function(client, bufnr)
   lsp_zero.default_keymaps({buffer = bufnr})
 end)
 
-lsp_zero.setup_servers({"lua_ls", "texlab", "ccls", "rust_analyzer", "pyright", "tsserver", "svelte"})
+lsp_zero.setup_servers({"lua_ls", "texlab", "ccls", "rust_analyzer", "pyright", "tsserver", "svelte", "nil_ls"})
 
 --  Add any additional override configuration in the following tables. They will be passed to
 --  the `settings` field of the server config. You must look up that documentation yourself.
